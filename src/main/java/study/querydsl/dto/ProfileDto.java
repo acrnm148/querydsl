@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 import study.querydsl.entity.Profile;
 
 @Data
+@NoArgsConstructor // json을 java object로 변환하기 위해서는 빈 생성자가 필요함.
 public class ProfileDto {
 
     private Long memberNum;
